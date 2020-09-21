@@ -1,0 +1,20 @@
+.vertical-center {
+    min-height: 80%;
+    min-height: 80vh; 
+}
+#valLogo {
+    align-self: center;
+    margin-bottom: 35px;
+}
+.homeForm {
+    background-color:#303030;
+    border-radius: 5px;
+    border: none;
+}
+.homeForm:focus {
+    background-color:#303030;
+}
+.homeForm::placeholder {
+    color: #bababa;
+
+}
