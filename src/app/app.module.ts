@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from "@angular/router";
 import { HomepageComponent } from './homepage/homepage.component';
 import { UserpageComponent } from './userpage/userpage.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,13 +17,13 @@ import { UserpageComponent } from './userpage/userpage.component';
     AppComponent,
     NavComponent,
     HomepageComponent,
-    UserpageComponent
+    UserpageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
