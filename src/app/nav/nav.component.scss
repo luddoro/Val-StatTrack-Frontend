@@ -1,7 +1,17 @@
-.navbar {
-    max-height: 20%;
-}
 img {
     height:30%;
     width: 30%;
+}
+.navbar {
+    max-height: 20%;
+}
+.nav-search {
+    width: 800px !important;
+}
+.nav-links {
+    img {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
 }
